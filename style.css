@@ -191,10 +191,12 @@ font-family: 'Poppins', sans-serif;
 
 .skills .item-text{
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     font-weight: 600;
     font-size: 1.3rem;
     margin-left: 20px;
+    position:relative;
 }
 
 .skills .item-text span:last-child{
@@ -241,23 +243,23 @@ font-family: 'Poppins', sans-serif;
 }
 
 .progress-bar.w-90{
-    width:90%
+    width:90%;
 }
 
 .progress-bar.w-75{
-    width:75%
+    width:75%;
 }
 .progress-bar.w-85{
-    width:85%
+    width:85%;
 }
 .progress-bar.w-80{
-    width:80%
+    width:80%;
 }
 .progress-bar.w-60{
-    width:60%
+    width:60%;
 }
 .progress-bar.w-68{
-    width:68%
+    width:68%;
 }
 
 .projects{
